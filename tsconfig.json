@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./.tsbuild/",
+    "sourceMap": false,
+    "target": "ES2019",
+    "module": "commonjs",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "types": [
+      "node",
+      "webdriverio/async",
+      "wdio@/cucumber-framework"
+    ],
+  },
+  "include": ["steps/*.ts"],
+  "exclude": ["**/*.feature"]
+}
